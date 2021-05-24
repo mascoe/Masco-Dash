@@ -115,13 +115,13 @@ del(x1,x2,y,df1,df2,df3)
 #--------------------Designing
 
 app = dash.Dash()
-
+server = app.server
 
 #authentication for sign in page
 auth = dash_auth.BasicAuth(app,user)
 
 
-server = app.server
+
 
 
 #function for load picture
